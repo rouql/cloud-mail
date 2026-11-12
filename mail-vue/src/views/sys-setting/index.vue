@@ -1038,6 +1038,7 @@ const authRefreshOptions = computed(() => [
   {label: '10s', value: 10},
   {label: '15s', value: 15},
   {label: '20s', value: 20},
+  {label: '1h', value: 3600},
 ])
 
 const tgChatId = ref([])
